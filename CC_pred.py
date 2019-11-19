@@ -3,7 +3,7 @@
 
 import pandas as pd
 import numpy as np
-cc_apps = pd.read_csv('datasets/cc_approvals.data', header=None)
+cc_apps = pd.read_csv('cc_approvals.data', header=None)
 cc_apps.head()
 
 # Print summary statistics
